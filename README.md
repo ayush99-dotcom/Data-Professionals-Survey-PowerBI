@@ -6,19 +6,21 @@ The dataset was cleaned and transformed using Power Query, and several visualiza
  📁 Original Dataset Overview:   
   https://github.com/ayush99-dotcom/Data-Professionals-Survey-PowerBI/blob/main/Data_Professionals_Survey.xlsx
 
+ 🧰 Tools Used: Power BI Desktop (Power Query, Data Cleaning, Charts, Dashboard)
+
 🪜 Project Workflow Steps:
 
- 1. 🧹 Data Import & Transformation
+ 1. 🧹Data Import & Transformation
  <ul>
  <li>Imported the Excel survey dataset into Power BI.</li>
- <li>Used Power Query Editor to:</li><ol>
+ <li>Used Power Query Editor to:</li><ul>
  <li>Remove empty columns.</li>
  <li>Split columns with ambiguous data (e.g., salary range).</li>
  <li>Remove the original ambiguous columns after splitting.</li>
- <li>Add a new column for Average Salary based on the salary range.</li></ol>
+ <li>Add a new column for Average Salary based on the salary range.</li></ul>
  </ul>
 
- 2. 📊 Visualizations
+ 2. 📊Visualizations
  - **Cards**: Survey Taker Count, Average Age
  - **Bar Chart**: Average Salary by Job Title
  - **Column Chart**: Favorite Programming Language by Job Title
