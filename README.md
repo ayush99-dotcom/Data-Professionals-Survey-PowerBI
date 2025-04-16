@@ -1,1 +1,21 @@
-# Data-Professionals-Survey-PowerBI
+# 📌 Data-Professionals-Survey-PowerBI
+
+This Power BI project analyzes responses from a survey conducted among data professionals. The goal was to explore trends in job satisfaction, career entry difficulty, salary ranges, and demographic insights.
+The dataset was cleaned and transformed using Power Query, and several visualizations were created to display key insights such as average salary by job title, preferred programming languages, and other geographic distribution.
+
+## 📁 Original Dataset Overview:
+https://github.com/ayush99-dotcom/Data-Professionals-Survey-PowerBI/blob/main/Data_Professionals_Survey.xlsx
+
+🪜 Project Workflow Steps:
+1. Data Import & Transformation
+<ul>
+<li>Imported the Excel survey dataset into Power BI.</li>
+<li>Used Power Query Editor to:</li><ol>
+<li>Remove empty columns.</li>
+<li>Split columns with ambiguous data (e.g., salary range).</li>
+<li>Remove the original ambiguous columns after splitting.</li>
+<li>Add a new column for Average Salary based on the salary range.</li></ol>
+</ul>
+
+
+
